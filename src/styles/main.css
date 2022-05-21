@@ -1,3 +1,7 @@
+body {
+    background-color: grey;
+}
+
 .container {
     width: 1024px;
     margin: 0 auto;
