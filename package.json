@@ -1,0 +1,27 @@
+{
+  "name": "moviemania",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /MovieMania/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devisd/MovieMania.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devisd/MovieMania/issues"
+  },
+  "homepage": "https://github.com/devisd/MovieMania",
+  "devDependencies": {
+    "axios": "^0.27.2",
+    "handlebars": "^4.7.7",
+    "notiflix": "^3.2.5",
+    "parcel": "^2.5.0",
+    "parcel-plugin-nuke-dist": "^1.0.1"
+  }
+}
