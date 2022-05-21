@@ -1,4 +1,7 @@
-4722
+4719
+68C:\GitHub\MovieMania\node_modules\@parcel\events\lib\ValueEmitter.js132976239966323322 0
+28C:\GitHub\MovieMania\.github132976260654333650 1
+68C:\GitHub\MovieMania\node_modules\xxhash-wasm\umd\xxhash-wasm.js.map132976239965683773 0
 78C:\GitHub\MovieMania\node_modules\caniuse-lite\data\features\pagevisibility.js132976239979662961 0
 33C:\GitHub\MovieMania\package.json132976245921637610 0
 87C:\GitHub\MovieMania\node_modules\caniuse-lite\data\features\date-tolocaledatestring.js132976239976337442 0
@@ -8,7 +11,7 @@
 80C:\GitHub\MovieMania\node_modules\@swc\helpers\lib\_class_private_method_init.js132976239970571511 0
 65C:\GitHub\MovieMania\node_modules\css-tree\lib\syntax\node\Url.js132976239974308875 0
 58C:\GitHub\MovieMania\node_modules\css-tree\lib\syntax\node132976239974388826 1
-31C:\GitHub\MovieMania\.gitignore132976238187968053 0
+31C:\GitHub\MovieMania\.gitignore132976270576404416 0
 56C:\GitHub\MovieMania\node_modules\css-tree\lib\tokenizer132976239974308875 1
 79C:\GitHub\MovieMania\node_modules\handlebars\dist\amd\handlebars\helpers\log.js132976244937199950 0
 48C:\GitHub\MovieMania\node_modules\balanced-match132976244558818502 1
@@ -25,7 +28,7 @@
 68C:\GitHub\MovieMania\node_modules\htmlnano\lib\modules\minifyJson.js132976239969692128 0
 42C:\GitHub\MovieMania\node_modules\asynckit132976245170106951 1
 81C:\GitHub\MovieMania\node_modules\@parcel\core\lib\requests\ParcelBuildRequest.js132976239973859189 0
-25C:\GitHub\MovieMania\dist132976254695437391 1
+25C:\GitHub\MovieMania\dist132976270680139462 1
 50C:\GitHub\MovieMania\node_modules\path-is-absolute132976244558788520 1
 60C:\GitHub\MovieMania\node_modules\v8-compile-cache\README.md132976239964844367 0
 59C:\GitHub\MovieMania\node_modules\csso\lib\replace\index.js132976239971330982 0
@@ -61,7 +64,7 @@
 79C:\GitHub\MovieMania\node_modules\@parcel\optimizer-image\lib\ImageOptimizer.js132976239963425377 0
 53C:\GitHub\MovieMania\node_modules\type-fest\readme.md132976239963835094 0
 33C:\GitHub\MovieMania\node_modules132976245371501387 1
-40C:\GitHub\MovieMania\src\styles\main.css132976254541776613 0
+40C:\GitHub\MovieMania\src\styles\main.css132976268393999387 0
 38C:\GitHub\MovieMania\package-lock.json132976245372866176 0
 41C:\GitHub\MovieMania\node_modules\@parcel132976245372400751 1
 80C:\GitHub\MovieMania\node_modules\lmdb\prebuilds\linux-x64\node.abi88.glibc.node132976239978016306 0
@@ -166,7 +169,7 @@
 41C:\GitHub\MovieMania\node_modules\timsort132976239965653797 1
 72C:\GitHub\MovieMania\node_modules\@parcel\core\src\public\BundleGraph.js132976239971840615 0
 74C:\GitHub\MovieMania\node_modules\lmdb\prebuilds\win32-x64\node.abi72.node132976239977084761 0
-36C:\GitHub\MovieMania\src\js\index.js132976246568522531 0
+36C:\GitHub\MovieMania\src\js\index.js132976255493039973 0
 44C:\GitHub\MovieMania\src\js\API-myLibrery.js132976249868436009 0
 39C:\GitHub\MovieMania\src\js\API-word.js132976249238333926 0
 65C:\GitHub\MovieMania\node_modules\caniuse-lite\data\regions\HR.js132976239977714314 0
@@ -241,17 +244,6 @@
 58C:\GitHub\MovieMania\node_modules\weak-lru-cache\README.md132976239965773716 0
 58C:\GitHub\MovieMania\node_modules\abortcontroller-polyfill132976239966862943 1
 57C:\GitHub\MovieMania\node_modules\color-convert\README.md132976239965124182 0
-68C:\GitHub\MovieMania\node_modules\xxhash-wasm\cjs\xxhash-wasm.js.map132976239965084201 0
-85C:\GitHub\MovieMania\node_modules\lmdb\prebuilds\linux-arm64\electron.abi99.musl.node132976239975667915 0
-85C:\GitHub\MovieMania\node_modules\caniuse-lite\data\features\css-container-queries.js132976239974468767 0
-115C:\GitHub\MovieMania\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-browser-alias\bar.js132976239966503197 0
-56C:\GitHub\MovieMania\node_modules\safe-buffer\index.d.ts132976239964894336 0
-80C:\GitHub\MovieMania\node_modules\css-select\lib\pseudo-selectors\index.d.ts.map132976239969852029 0
-105C:\GitHub\MovieMania\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-alias-glob132976239973619358 1
-50C:\GitHub\MovieMania\node_modules\rimraf\rimraf.js132976244558788520 0
-71C:\GitHub\MovieMania\node_modules\caniuse-lite\data\features\ch-unit.js132976239973739280 0
-67C:\GitHub\MovieMania\node_modules\@parcel\packager-css\package.json132976239964464637 0
-48C:\GitHub\MovieMania\node_modules\dom-serializer132976239966563161 1
 79C:\GitHub\MovieMania\node_modules\htmlnano\lib\modules\removeAttributeQuotes.js132976239970071877 0
 53C:\GitHub\MovieMania\node_modules\neo-async\inject.js132976244936575565 0
 39C:\GitHub\MovieMania\node_modules\acorn132976239966213404 1
@@ -305,6 +297,17 @@
 59C:\GitHub\MovieMania\node_modules\lmdb\prebuilds\darwin-x64132976239978276119 1
 72C:\GitHub\MovieMania\node_modules\caniuse-lite\data\features\svg-smil.js132976239980494466 0
 48C:\GitHub\MovieMania\node_modules\delayed-stream132976245168494263 1
+68C:\GitHub\MovieMania\node_modules\xxhash-wasm\cjs\xxhash-wasm.js.map132976239965084201 0
+85C:\GitHub\MovieMania\node_modules\lmdb\prebuilds\linux-arm64\electron.abi99.musl.node132976239975667915 0
+85C:\GitHub\MovieMania\node_modules\caniuse-lite\data\features\css-container-queries.js132976239974468767 0
+115C:\GitHub\MovieMania\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-browser-alias\bar.js132976239966503197 0
+56C:\GitHub\MovieMania\node_modules\safe-buffer\index.d.ts132976239964894336 0
+80C:\GitHub\MovieMania\node_modules\css-select\lib\pseudo-selectors\index.d.ts.map132976239969852029 0
+105C:\GitHub\MovieMania\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-alias-glob132976239973619358 1
+50C:\GitHub\MovieMania\node_modules\rimraf\rimraf.js132976244558788520 0
+71C:\GitHub\MovieMania\node_modules\caniuse-lite\data\features\ch-unit.js132976239973739280 0
+67C:\GitHub\MovieMania\node_modules\@parcel\packager-css\package.json132976239964464637 0
+48C:\GitHub\MovieMania\node_modules\dom-serializer132976239966563161 1
 65C:\GitHub\MovieMania\node_modules\nan\nan_converters_pre_43_inl.h132976239966063513 0
 68C:\GitHub\MovieMania\node_modules\terser\node_modules\source-map\lib132976239969921970 1
 85C:\GitHub\MovieMania\node_modules\caniuse-lite\data\features\contentsecuritypolicy.js132976239974099020 0
@@ -317,6 +320,7 @@
 57C:\GitHub\MovieMania\node_modules\browserslist\index.d.ts132976239966403276 0
 56C:\GitHub\MovieMania\node_modules\browserslist\README.md132976239966063513 0
 81C:\GitHub\MovieMania\node_modules\@swc\helpers\src\_initializer_warning_helper.js132976239974218942 0
+44C:\GitHub\MovieMania\dist\index.af77c24c.css132976270680099495 0
 51C:\GitHub\MovieMania\node_modules\neo-async\some.js132976244936835383 0
 59C:\GitHub\MovieMania\node_modules\dotenv\lib\env-options.js132976239965493912 0
 62C:\GitHub\MovieMania\node_modules\type-fest\source\except.d.ts132976239968982643 0
@@ -876,7 +880,6 @@
 57C:\GitHub\MovieMania\node_modules\node-gyp-build\index.js132976239964034937 0
 64C:\GitHub\MovieMania\node_modules\xxhash-wasm\umd\xxhash-wasm.js132976239964054924 0
 43C:\GitHub\MovieMania\node_modules\axios\lib132976245170205880 1
-68C:\GitHub\MovieMania\node_modules\xxhash-wasm\umd\xxhash-wasm.js.map132976239965683773 0
 64C:\GitHub\MovieMania\node_modules\xxhash-wasm\esm\xxhash-wasm.js132976239963465341 0
 65C:\GitHub\MovieMania\node_modules\caniuse-lite\data\regions\BM.js132976239973149701 0
 68C:\GitHub\MovieMania\node_modules\xxhash-wasm\esm\xxhash-wasm.js.map132976239965364004 0
@@ -1291,9 +1294,9 @@
 78C:\GitHub\MovieMania\node_modules\terser\node_modules\source-map\lib\base64.js132976239966083499 0
 65C:\GitHub\MovieMania\node_modules\caniuse-lite\data\regions\VA.js132976239980934019 0
 85C:\GitHub\MovieMania\node_modules\terser\node_modules\source-map\lib\binary-search.js132976239966243380 0
+125C:\GitHub\MovieMania\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\side-effects-false-glob\sub\a\index.js132976239971990514 0
 63C:\GitHub\MovieMania\node_modules\domhandler\lib\index.d.ts.map132976239964874349 0
 70C:\GitHub\MovieMania\node_modules\@parcel\package-manager\src\index.js132976239965324030 0
-125C:\GitHub\MovieMania\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\side-effects-false-glob\sub\a\index.js132976239971990514 0
 80C:\GitHub\MovieMania\node_modules\@parcel\core\src\requests\AssetGraphRequest.js132976239970521545 0
 84C:\GitHub\MovieMania\node_modules\terser\node_modules\source-map\lib\mapping-list.js132976239966413262 0
 78C:\GitHub\MovieMania\node_modules\@parcel\utils\test\input\sourcemap\inline.js132976239971960529 0
@@ -1877,6 +1880,7 @@
 70C:\GitHub\MovieMania\node_modules\node-addon-api\napi-inl.deprecated.h132976239964994260 0
 57C:\GitHub\MovieMania\node_modules\lmdb\dist\index.cjs.map132976239974458765 0
 61C:\GitHub\MovieMania\node_modules\node-addon-api\node_api.gyp132976239963065632 0
+38C:\GitHub\MovieMania\.github\workflows132976260654410676 1
 62C:\GitHub\MovieMania\node_modules\node-addon-api\noexcept.gypi132976239964434656 0
 68C:\GitHub\MovieMania\node_modules\caniuse-lite\data\features\ruby.js132976239980121374 0
 58C:\GitHub\MovieMania\node_modules\node-addon-api\nothing.c132976239962558240 0
@@ -1937,9 +1941,9 @@
 52C:\GitHub\MovieMania\node_modules\neo-async\foldl.js132976244936485627 0
 67C:\GitHub\MovieMania\node_modules\axios\lib\helpers\isAxiosError.js132976245170027032 0
 64C:\GitHub\MovieMania\node_modules\@parcel\watcher\src\Watcher.hh132976239970541533 0
+68C:\GitHub\MovieMania\node_modules\msgpackr-extract\build\binding.sln132976240004078451 0
 54C:\GitHub\MovieMania\node_modules\neo-async\forEach.js132976244936495633 0
 65C:\GitHub\MovieMania\node_modules\caniuse-lite\data\regions\MZ.js132976239979333725 0
-68C:\GitHub\MovieMania\node_modules\msgpackr-extract\build\binding.sln132976240004078451 0
 70C:\GitHub\MovieMania\node_modules\css-what\lib\commonjs\stringify.d.ts132976239970161795 0
 69C:\GitHub\MovieMania\node_modules\@swc\helpers\src\_inherits_loose.js132976239974188962 0
 56C:\GitHub\MovieMania\node_modules\@parcel\diagnostic\lib132976239965314038 1
@@ -3639,6 +3643,7 @@
 72C:\GitHub\MovieMania\node_modules\caniuse-lite\data\features\fontface.js132976239977234658 0
 52C:\GitHub\MovieMania\node_modules\axios\lib\utils.js132976245170225880 0
 85C:\GitHub\MovieMania\node_modules\caniuse-lite\data\features\text-underline-offset.js132976239980594763 0
+48C:\GitHub\MovieMania\dist\index.af77c24c.css.map132976270680169456 0
 78C:\GitHub\MovieMania\node_modules\caniuse-lite\data\features\form-attribute.js132976239977244648 0
 107C:\GitHub\MovieMania\node_modules\@parcel\transformer-react-refresh-wrap\lib\ReactRefreshWrapTransformer.js132976239965014248 0
 86C:\GitHub\MovieMania\node_modules\caniuse-lite\data\features\form-submit-attributes.js132976239977254645 0
@@ -3824,7 +3829,7 @@
 73C:\GitHub\MovieMania\node_modules\caniuse-lite\data\features\wake-lock.js132976239981069386 0
 67C:\GitHub\MovieMania\node_modules\caniuse-lite\data\features\wav.js132976239981105154 0
 68C:\GitHub\MovieMania\node_modules\caniuse-lite\data\features\wasm.js132976239981079383 0
-43C:\GitHub\MovieMania\dist\index.44546405.js132976254695397418 0
+43C:\GitHub\MovieMania\dist\index.44546405.js132976270680099495 0
 75C:\GitHub\MovieMania\node_modules\caniuse-lite\data\features\wbr-element.js132976239981109473 0
 64C:\GitHub\MovieMania\node_modules\@parcel\core\lib\serializer.js132976239974338956 0
 74C:\GitHub\MovieMania\node_modules\caniuse-lite\data\features\web-serial.js132976239981129485 0
@@ -3842,7 +3847,6 @@
 73C:\GitHub\MovieMania\node_modules\caniuse-lite\data\features\xhtmlsmil.js132976239981312845 0
 78C:\GitHub\MovieMania\node_modules\caniuse-lite\data\features\xml-serializer.js132976239981322833 0
 56C:\GitHub\MovieMania\node_modules\callsites\package.json132976239962776554 0
-44C:\GitHub\MovieMania\dist\index.63cf8256.css132976254695397418 0
 53C:\GitHub\MovieMania\node_modules\browserslist\cli.js132976239963675192 0
 55C:\GitHub\MovieMania\node_modules\browserslist\error.js132976239964054924 0
 51C:\GitHub\MovieMania\node_modules\@parcel\utils\src132976239973199655 1
@@ -4450,7 +4454,6 @@
 61C:\GitHub\MovieMania\node_modules\@parcel\events\src\types.js132976239966193420 0
 62C:\GitHub\MovieMania\node_modules\@parcel\events\lib\errors.js132976239965014248 0
 61C:\GitHub\MovieMania\node_modules\@parcel\events\lib\index.js132976239965593838 0
-68C:\GitHub\MovieMania\node_modules\@parcel\events\lib\ValueEmitter.js132976239966323322 0
 65C:\GitHub\MovieMania\node_modules\@parcel\diagnostic\package.json132976239965104187 0
 56C:\GitHub\MovieMania\node_modules\@parcel\diagnostic\src132976239963805105 1
 57C:\GitHub\MovieMania\node_modules\@parcel\diagnostic\test132976239964614529 1
@@ -4712,12 +4715,6 @@
 49C:\GitHub\MovieMania\node_modules\.bin\terser.cmd132976239981583388 0
 47C:\GitHub\MovieMania\node_modules\.bin\uglifyjs132976244940467520 0
 51C:\GitHub\MovieMania\node_modules\.bin\uglifyjs.cmd132976244940467520 0
-47C:\GitHub\MovieMania\dist\index.44546405.js.map132976254695457378 0
-44C:\GitHub\MovieMania\dist\index.5525e4b8.css132976254542668360 0
-48C:\GitHub\MovieMania\dist\index.5525e4b8.css.map132976254542668360 0
-48C:\GitHub\MovieMania\dist\index.63cf8256.css.map132976254695457378 0
-43C:\GitHub\MovieMania\dist\index.739bf03c.js132976253250520518 0
-47C:\GitHub\MovieMania\dist\index.739bf03c.js.map132976253250540501 0
-43C:\GitHub\MovieMania\dist\index.975ef6c8.js132976253105114200 0
-47C:\GitHub\MovieMania\dist\index.975ef6c8.js.map132976253105134190 0
-36C:\GitHub\MovieMania\dist\index.html132976254695397418 0
+47C:\GitHub\MovieMania\dist\index.44546405.js.map132976270680169456 0
+36C:\GitHub\MovieMania\dist\index.html132976270680099495 0
+49C:\GitHub\MovieMania\.github\workflows\deploy.yml132970302436647011 0
