@@ -1,31 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="Permissions-Policy" content="interest-cohort=()" />
     <title>MovieMania</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./styles/main.css">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/modal.css" />
+  </head>
+  <body>
     <header class="header">
-        <div class="container">
-            
-        </div>
+
     </header>
     <main>
-        <div class="container">
-            <h1><b>Welcome to the MovieMania project!</b></h1>
-        </div>
+      <button type="submit" data-modal-open>Временно</button>
+      <div class="container">
+        <h1><b>Welcome to the MovieMania project!</b></h1>
+      </div>
     </main>
     <footer>
-        <div class="container"></div>
+      <div class="container"></div>
     </footer>
+<!--     <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <!-- кнопка закрытия -->
+        <button class="modal-close-button" data-modal-close>
+          <svg class="modal-close-button-svg">
+            <use href="./images/svg/close-modal.svg"></use>
+          </svg>
+        </button>
+        <!-- картинка -->
+        <div class="current__content">
+          <img class="current_image" src="#" alt="#" />
+        </div>
 
+        <!-- правая сторона -->
+        <div class="modal-rigth-side">
+          <h3 class="modal-movie-name">BLABLABLA</h3>
+          <!-- жанры и прочее -->
+          <div class="modal-ul-wrapper">
+            <ul class="modal-ul">
+              <li>Vote / Votes</li>
+              <li>Popularity</li>
+              <li>Original Title</li>
+              <li>Genre</li>
+            </ul>
+            <ul>
+              <li>
+                <span class="modal-vote">BLA</span> /
+                <span class="modal-votes">BLA</span>
+              </li>
+              <li>BLABLABLA</li>
+              <li>BLABLABLA</li>
+              <li>BLABLABLA</li>
+            </ul>
+          </div>
+          <!-- текст о -->
+          <h4>About</h4>
+          <p>
+            BLABLABLABLABLABLABLABLABLABLABLABLABLABLABLABLABLABLABLABLABLABLABLABLABLABLABLA
+          </p>
+          <!-- кнопки -->
+          <button
+            class="modal-button modal-btn-orange"
+            type="submit"
+            data-button-del-watched
+          >
+            ADD TO WATCHED
+          </button>
+          <button
+            class="modal-button modal-btn-orange"
+            type="submit"
+            data-button-del-queue
+          >
+            ADD TO QUEUE
+          </button>
+        </div>
+      </div>
+    </div> -->
+
+    <include src="./components/_modal.html"></include>
     <script src="./js/index.js" type="module"></script>
-</body>
+    <script src="./js/modal.js" type="module"></script>
+  </body>
 </html>
