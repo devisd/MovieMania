@@ -1,5 +1,7 @@
 body {
     background-color: grey;
+    font-weight: 500;
+    font-style: normal;
 }
 
 .container {
@@ -8,11 +10,67 @@ body {
 }
 
 h1, h2 {
-    text-align: center;
-    font-size: 60px;
-    font-weight: 700;
-    margin-top: 80px;
+    margin: 0;
+    padding: 0;
 }
+a {
+    text-decoration: none;
+}
+
+/* HEADER */
+
+.header {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 40px 70px 97px 70px;
+    background-image: url(../images/header/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    line-height: 1.167;
+    color: #ffffff;
+}
+.header__title_wrapper {
+    display: flex;
+    align-items: center;
+}
+.header__title_wrapper img {
+    margin-right: 10px;
+}
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 37px;
+}
+.header-top ul {
+    display: flex;
+    list-style: none;
+}
+.header-top ul li:first-child {
+    margin-right: 40px;
+}
+.header-top ul a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.167;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+/* /HEADER */
+
+/* MAIN */
+
+.main {
+    padding: 60px 70px;
+    background-color: #ffffff;
+}
+
+/* /MAIN */
 
 /* LOADER SPINER */
 .loader {
