@@ -102,6 +102,29 @@ a {
     background-color: #ffffff;
 }
 
+#watched:hover,
+#queue:hover,
+#watched:focus,
+#queue:focus {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+
+    width: 136px;
+    height: 44px;
+    left: 241px;
+    top: 121px;
+    background-color: #FF6B01;
+    border-radius: 5px;
+    border: none;
+}
+
 /* /MAIN */
 
 /* FOOTER */
