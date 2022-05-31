@@ -1,8 +1,6 @@
 body {
-    background-color: grey;
-    font-weight: 500;
-    font-style: normal;
     font-family: 'Roboto', sans-serif;
+    font-weight: 500;
 }
 
 .container {
@@ -10,12 +8,21 @@ body {
     margin: 0 auto;
 }
 
-h1, h2 {
+h1, h2, h3, h4, h5, h6, p {
     margin: 0;
     padding: 0;
 }
+
 a {
     text-decoration: none;
+}
+
+img {
+    display: block;
+}
+
+ul, li {
+    list-style: none;
 }
 
 /* HEADER */
@@ -25,10 +32,12 @@ a {
     background-image: url(../images/header/header-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center
 }
 
 .lib {
     background-image: url(../images/header/header-bg-lib.png);
+    ;
 }
 
 .header__container {
@@ -94,6 +103,7 @@ a {
 .header__form {
     text-align: center;
     margin: 0 auto;
+    padding: 8px 0 9px;
 }
 
 .header input {
@@ -128,11 +138,8 @@ a {
 
 #watched,
 #queue {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
     font-size: 12px;
     line-height: 16px;
-    align-items: center;
     text-align: center;
     text-transform: uppercase;
     color: #ffffff;
@@ -161,6 +168,54 @@ a {
     color: #FF6B01;
     border: none;
     opacity: 1;
+}
+
+.movies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.movie__cart {
+    width: 274px;
+    height: 440px;
+    margin-bottom: 30px;
+}
+
+.movie__poster {
+    display: block;
+    width: 274px;
+    height: 398px;
+    border-radius: 5px;
+}
+
+.movie__title {
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+    margin-top: 10px;
+}
+
+.movie__text-container {
+    display: flex;
+}
+
+.movie__description {
+    font-size: 12px;
+    line-height: 16px;
+    color: #FF6B08;
+}
+
+.movie__rating {
+    display: block;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #FF6B01;
+    border-radius: 5px;
+    padding: 1px 10px;
+    margin-left: 11px;
 }
 
 /* /MAIN */
