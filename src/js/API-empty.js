@@ -4,14 +4,14 @@ const URL =
 
 
 
-const searcForm = document.querySelector(".test");
-// const gallery = document.queryCommandValue(".gallery");
+
+
 
 // const movies = createMarkapCard(results);
 
 
 
-searcForm.addEventListener("click", onSearch);
+window.addEventListener("load", onSearch);
 // refs.searcForm.addEventListener("submit", onSearch);
 // gallery.insertAdjacentHTML("beforeend", movies);
 
@@ -37,18 +37,18 @@ function onSearch(e) {
 //     })
 //     .join("");
 // }
-function createMarkapCard(results) {
+// function createMarkapCard(results) {
 
-    return results.map(res => {
-        return `
-        <li class="movie__card">
-            <img src="https://image.tmdb.org/t/p/w500${res.poster_path}" alt="${res.title}" class="movie__poster">
-            <h2 class="movie__title">${res.title}</h2>
-            <div class="movie__text-container">
-                <p class="movie__description">${res.ganres} | ${res.release_date}</p>
-                <p class="movie__rating">${res.vote_average}</p>
-            </div>
-        </li>
-        `
-    }).join('')
-}
+//     return results.map(res => {
+//         return `
+//         <li class="movie__card">
+//             <img src="https://image.tmdb.org/t/p/w500${res.poster_path}" alt="${res.title}" class="movie__poster">
+//             <h2 class="movie__title">${res.title}</h2>
+//             <div class="movie__text-container">
+//                 <p class="movie__description">${res.ganres} | ${res.release_date}</p>
+//                 <p class="movie__rating">${res.vote_average}</p>
+//             </div>
+//         </li>
+//         `
+//     }).join('')
+// }
