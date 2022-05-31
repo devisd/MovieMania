@@ -3,27 +3,25 @@ import API from './API-word'
 import debounce from 'lodash.debounce'
 
 
-const searchFormEl = document.querySelector('#search-form-movie')
-const galleryDivEl = document.querySelector('.gallery')
+const searchFormEl = document.querySelector('form')
+const galleryDivEl = document.querySelector('.movies')
 const getApiServise = new API();
 
-const searchBtn=document.querySelector('[data-modal-open]')
 const mainEl=document.querySelector('.main')
 
-// searchFormEl.addEventListener('input', debounce(onInput, 500))
+searchFormEl.addEventListener('submit', onInput)
+
 
 
 function onInput(e) {
     
     e.preventDefault()
-    if (e.target.nodeName !== 'INPUT') {
-        return
-    }
+    console.log(e.currentTarget.input__movie.value)
 
-    const searchQuey=e.target.value
+    const searchQuey=e.currentTarget.elements[0].value
 
     movieSearch(searchQuey)
-    console.log(searchQuey)
+    // console.log(searchQuey)
 }
 
 function movieSearch(searchQuery) {
@@ -44,10 +42,21 @@ function createMarkapCard(results) {
     console.log(results)
     return results.map(res => {
         return `
+        <li class="movie__card">
+            <img src="https://image.tmdb.org/t/p/w500${res.poster_path}" alt="${res.title}" class="movie__poster">
+            <h2 class="movie__title">${res.title}</h2>
+            <div class="movie__text-container">
+                <p class="movie__description">${res.ganres} | ${res.release_date}</p>
+                <p class="movie__rating">${res.vote_average}</p>
+            </div>
+        </li>
+        `
+
+        return `
         <div class="movie__card">
             <img
                 class="movie__image"
-                src="https://image.tmdb.org/t/p/w500{${res.poster_path}"
+                src="https://image.tmdb.org/t/p/w500${res.poster_path}"
                 alt="${res.title}"
                 width="480"
             />
