@@ -1,3 +1,8 @@
+/* $mini-mobile: 320px;
+$mobile: 480px;
+$tablet: 768px;
+// $desktop: 1366px;
+$desktop: 1346px; */
 body.modal-open {
   overflow: hidden;
 }
@@ -24,4 +29,52 @@ body.modal-open {
 .backdrop.is-hidden .modal {
   transform: translate(-50%, -100%) scale(0.7);
   z-index: 160;
+}
+
+.modal {
+  width: 280px;
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  z-index: 6;
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  max-height: 100vh;
+  overflow-y: auto;
+  padding: 48px 20px;
+  /* transform: translateX(-50%) scale(1); */
+  /* transition: var(--time-duration) var(--timing-function); */
+}
+
+.modal-close-button {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 12px;
+  right: 12px;
+  width: 30px;
+  height: 30px;
+  border: none;
+  box-shadow: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #ffffff;
+
+  /* transition: background-color var(--time-duration) var(--timing-function); */
+}
+.modal-close-button:hover,
+.modal-close-button:focus {
+  background-color: #ff6b08;
+}
+.modal-close-button-svg {
+  width: 100%;
+  height: 100%;
+  fill: black;
+  background-color: #ff6b08;
+}
+.current__content {
+  position: relative;
+  overflow: hidden;
 }
