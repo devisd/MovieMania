@@ -62,7 +62,7 @@ body.modal-open {
   cursor: pointer;
   background-color: #ffffff;
 
-  /* transition: background-color var(--time-duration) var(--timing-function); */
+  transition: background-color var(--time-duration) var(--timing-function);
 }
 .modal-close-button:hover,
 .modal-close-button:focus {
