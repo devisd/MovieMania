@@ -3,16 +3,21 @@
   <div class="modal">
     <!-- кнопка закрытия -->
     <button class="modal-close-button" data-modal-close>
-      <svg class="modal-close-button-svg">
+      <img
+        class="modal-close-button-svg"
+        src="./images/svg/close-modal.svg"
+        alt=""
+      />
+      <!-- <svg class="modal-close-button-svg">
         <use href="./images/svg/close-modal.svg"></use>
-      </svg>
+      </svg> -->
     </button>
     <!-- <svg class="modal-close-button-svg">
       <use href="./images/svg/close-modal.svg"></use>
     </svg> -->
     <!-- картинка -->
     <div class="current__content">
-      <img class="current_image" src="#" alt="#" />
+      <img class="current_image" src="#" alt="Постер фильма" />
     </div>
 
     <!-- правая сторона -->
@@ -26,7 +31,7 @@
           <li>Original Title</li>
           <li>Genre</li>
         </ul>
-        <ul>
+        <ul class="modal-ul">
           <li>
             <span class="modal-vote">BLA</span> /
             <span class="modal-votes">BLA</span>
@@ -39,23 +44,22 @@
       <!-- текст о -->
       <h4>About</h4>
       <p>
-        BLABLABLABLABLABLABLABLABLABLABLABLABLABLABLABLABLABLABLABLABLABLABLABLABLABLABLA
+        BLABLABLABLABLABLA BLABLABLABLA BLABLABLABLABLABLABLA BLABLABLABLA
+        BLABLABLABLABLABLA
       </p>
       <!-- кнопки -->
-      <button
-        class="modal-button modal-btn-orange"
-        type="submit"
-        data-button-del-watched
-      >
-        ADD TO WATCHED
-      </button>
-      <button
-        class="modal-button modal-btn-orange"
-        type="submit"
-        data-button-del-queue
-      >
-        ADD TO QUEUE
-      </button>
+      <div class="modal-button-wrapper">
+        <button
+          class="modal-btn-orange modal-button"
+          type="submit"
+          data-button-del-watched
+        >
+          ADD TO WATCHED
+        </button>
+        <button class="modal-button" type="submit" data-button-del-queue>
+          ADD TO QUEUE
+        </button>
+      </div>
     </div>
   </div>
 </div>
