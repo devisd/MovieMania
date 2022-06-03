@@ -100,7 +100,7 @@ ul, li {
     opacity: 1;
 }
 
-.header__form_wrapper {
+.header__form {
     display: flex;
     justify-content: space-between;
     text-align: center;
@@ -108,7 +108,7 @@ ul, li {
     border-bottom: 0.5px solid #FFFFFF;
     width: 336px;
 }
-.header__form_wrapper input {
+.header__form input {
     border: none;
     background-color: transparent;
     color: #FFFFFF;
@@ -321,7 +321,7 @@ ul, li {
         .footer__container p {
             margin-bottom: 10px;
         }
-        .header__form_wrapper {
+        .header__form {
             width: 280px;
         }
         .header {
