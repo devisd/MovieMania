@@ -45,6 +45,7 @@ li {
 }
 
 .lib {
+  padding: 40px 70px 81px 70px;
   background-image: url(../images/header/header-bg-lib.png);
 }
 
@@ -108,17 +109,20 @@ li {
 }
 
 .header__form {
-  text-align: center;
-  margin: 0 auto;
-  padding: 8px 0 9px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0 auto;
+    border-bottom: 0.5px solid #FFFFFF;
+    width: 336px;
 }
-
-.header input {
-  width: 336px;
-  border: none;
-  border-bottom: 0.5px solid #ffffff;
-  background-color: transparent;
-  padding: 4px 0;
+.header__form input {
+    border: none;
+    background-color: transparent;
+    color: #FFFFFF;
+    width: 100%;
+    outline: none;
+    padding: 4px;
 }
 
 .header input::placeholder {
@@ -126,6 +130,10 @@ li {
   font-size: 14px;
   line-height: 0.875;
   color: #ffffff;
+}
+.button__search {
+    background: transparent;
+    border: none;
 }
 
 .lybrary {
@@ -139,8 +147,9 @@ li {
 /* MAIN */
 
 .main {
-  padding: 60px 70px;
-  background-color: #ffffff;
+    padding: 60px 70px;
+    background-color: #ffffff;
+    height: 100vh;
 }
 
 #watched,
@@ -287,11 +296,47 @@ li {
 }
 
 @keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
+    0% {
+        transform: rotate(0deg);
+    }
 
-  100% {
-    transform: rotate(360deg);
-  }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+}
+@media screen and (max-width: 558px) {
+    .container {
+        max-width: 558px;
+    }
+    .header__title_wrapper h1 {
+        display: none;
+    }
+    .footer__container {
+        flex-direction: column;
+    }
+    .footer__link {
+        display: flex;
+    }
+        .footer__container p {
+            margin-bottom: 10px;
+        }
+        .header__form {
+            width: 280px;
+        }
+        .header {
+                padding: 58px 20px 97px;
+        }
+                .footer__container p,
+                .footer__container span,
+                .footer__container a {
+                    font-size: 14px;
+                    line-height: 1.143;
+                }
 }
