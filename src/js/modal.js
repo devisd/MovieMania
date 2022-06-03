@@ -15,3 +15,17 @@
     refs.modal.classList.toggle("is-hidden");
   }
 })();
+// потом уберу
+// const text = document.querySelector(".modal-text");
+// console.log(text.textContent.length);
+// const mediaQuery = window.matchMedia("(min-width: 767px)");
+
+// function addScroll() {
+//   if (mediaQuery.matches) {
+//     if (text.textContent.length >= 605) {
+//       text.classList.add("modal-text-scroll");
+//     } else {
+//       text.classList.add("modal-text-no-scroll");
+//     }
+//   }
+// }
