@@ -3,6 +3,15 @@ $mobile: 480px;
 $tablet: 768px;
 // $desktop: 1366px;
 $desktop: 1346px; */
+/* вынести в основное */
+html {
+  box-sizing: border-box;
+}
+* {
+  box-sizing: inherit;
+  padding-inline-start: 0px;
+}
+/* вынести в основной файл */
 body.modal-open {
   overflow: hidden;
 }
@@ -34,13 +43,16 @@ body.modal-open {
 .modal {
   width: 280px;
   position: absolute;
-  top: 20px;
+  top: 50%;
   left: 50%;
+  transform: translate(-50%, -50%);
   z-index: 6;
   background-color: #ffffff;
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   max-height: 100vh;
+  /* overflow-y: hidden;
+  overflow-x: hidden; */
   overflow-y: auto;
   padding: 48px 20px;
   /* transform: translateX(-50%) scale(1); */
@@ -52,29 +64,70 @@ body.modal-open {
   display: flex;
   align-items: center;
   justify-content: center;
-  top: 12px;
-  right: 12px;
+  top: 10px;
+  right: 10px;
   width: 30px;
   height: 30px;
   border: none;
   box-shadow: none;
   outline: none;
   cursor: pointer;
+  padding-right: 0;
   background-color: #ffffff;
 
-  /* transition: background-color var(--time-duration) var(--timing-function); */
+  transition: background-color var(--time-duration) var(--timing-function);
 }
 .modal-close-button:hover,
 .modal-close-button:focus {
   background-color: #ff6b08;
 }
 .modal-close-button-svg {
-  width: 100%;
-  height: 100%;
+  /* width: 100%;
+  height: 100%; */
   fill: black;
-  background-color: #ff6b08;
 }
 .current__content {
+  width: 240px;
+  height: 357px;
+  display: block;
   position: relative;
   overflow: hidden;
+  background-color: #818181;
+}
+.current_image {
+  display: block;
+}
+
+.modal-ul {
+  list-style: none;
+}
+
+.modal-button-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.modal-button {
+  width: 112px;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+.modal-btn-orange {
+  background-color: #ff6b01;
+  border: 0px;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 767px) {
+  .modal {
+    width: 618px;
+    height: 562px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .modal {
+    width: 882px;
+    height: 568px;
+  }
 }
