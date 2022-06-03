@@ -36,6 +36,7 @@ ul, li {
 }
 
 .lib {
+    padding: 40px 70px 81px 70px;
     background-image: url(../images/header/header-bg-lib.png);
     ;
 }
