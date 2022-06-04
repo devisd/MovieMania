@@ -82,9 +82,7 @@ function onCardClick(e) {
             return res
         })
         .then(openModal)
-        .then(renderModal)
-        .then(console.log)
-    
+        .then(renderModal)    
 }
 
 function openModal({backdrop_path, title, overview, genres, original_title, popularity, vote_average,}) {
