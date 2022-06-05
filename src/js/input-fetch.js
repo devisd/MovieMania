@@ -60,7 +60,7 @@ function createMarkapCard(results) {
 
 function renderMarkap(cards) {
     galleryDivEl.innerHTML = '';
-    galleryDivEl.insertAdjacentHTML('beforeend', cards)
+    galleryDivEl.insertAdjacentHTML('afterbegin', cards)
 
     const card = document.querySelector('.movies')
     card.addEventListener('click', onCardClick)
