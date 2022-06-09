@@ -243,6 +243,11 @@ body.modal-open {
     width: 396px;
     height: 478px;
   }
+  .current_image {
+    display: block;
+    width: 396px;
+    height: 100%;
+  }
   .modal-btn-orange {
     margin-right: 15px;
   }

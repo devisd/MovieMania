@@ -1,4 +1,5 @@
 import API from './API-word'
+import { genres } from './genres-list.json';
 
 const searchFormEl = document.querySelector('form')
 const galleryDivEl = document.querySelector('.movies')
@@ -9,36 +10,35 @@ const getApiServise = new API();
 searchFormEl.addEventListener('submit', onInput)
 
 function onInput(e) {
-    
-    e.preventDefault()
-    console.log(e.currentTarget.input__movie.value)
 
-    const searchQuey=e.currentTarget.elements[0].value
+  e.preventDefault();
 
-    movieSearch(searchQuey)
+  const searchQuey = e.currentTarget.elements[0].value;
+
+  movieSearch(searchQuey);
 }
 
 function movieSearch(searchQuery) {
     getApiServise.query = searchQuery;
     return getApiServise.onFetch()
         .then(data => {
-            console.log(data)
-            return data.results
+          return data.results;
         })
         .then(createMarkapCard)
-        .then(renderMarkap)    
+        .then(renderMarkap)
 }
 
 function createMarkapCard(results) {
-    console.log(results)
-    return results.map(res => {
+  return results.map(res => {
         return `
         <li class="movie__card" name="li" id="${res.id}">
-            <img src="https://image.tmdb.org/t/p/w500${res.poster_path}" alt="${res.title}" id="${res.id}" class="movie__poster">
-            <h2 class="movie__title" >${res.title}</h2>
-            <div class="movie__text-container">
-                <p class="movie__description">${res.ganres} | ${res.release_date}</p>
+            <div data-modal-open>
+              <img src="https://image.tmdb.org/t/p/w500${res.poster_path}" alt="${res.title}" id="${res.id}" class="movie__poster">
+              <h2 class="movie__title" >${res.title}</h2>
+              <div class="movie__text-container">
+                <p class="movie__description">${res.genres_ids} | ${res.release_date}</p>
                 <p class="movie__rating">${res.vote_average}</p>
+              </div>
             </div>
         </li>
         `
@@ -59,7 +59,7 @@ function onCardClick(e) {
     if (e.target.nodeName !== 'IMG') {
         return
     }
-   
+
     const idMovie = e.target.id
     console.log(idMovie)
     getApiServise.movieId = idMovie
@@ -70,13 +70,13 @@ function onCardClick(e) {
             return res
         })
         .then(openModal)
-        .then(renderModal)    
+        .then(renderModal)
 }
 
-function openModal({backdrop_path, title, vote_count, overview, genres, original_title, popularity, vote_average,}) {
+function openModal({poster_path, title, vote_count, overview, genres, original_title, popularity, vote_average,}) {
     return `
       <div class="current__content">
-        <img class="current_image" src="https://image.tmdb.org/t/p/w500${backdrop_path}" alt="#" />
+        <img class="current_image" src="https://image.tmdb.org/t/p/w500${poster_path}" alt="#" />
       </div>
 
       <!-- правая сторона -->
@@ -125,5 +125,12 @@ function openModal({backdrop_path, title, vote_count, overview, genres, original
 
 function renderModal(obj) {
     modalEl.innerHTML = obj
-    
+
+}
+
+export {
+  movieSearch,
+  onCardClick,
+  openModal,
+  renderModal
 }
