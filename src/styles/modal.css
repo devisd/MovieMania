@@ -13,7 +13,15 @@ html {
 }
 /* вынести в основной файл */
 body.modal-open {
-  overflow: hidden;
+  /* overflow: hidden; */
+  /* overflow-y:hidden; */
+  /* opacity: 0; */
+  /* background-color: #ff6b01;
+  pointer-events: none;
+  visibility: hidden; */
+}
+body {
+/* padding-right: 55px; */
 }
 
 .backdrop {
@@ -25,7 +33,7 @@ body.modal-open {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.3);
 
-  overflow-y: scroll;
+  overflow-y:hidden;
   opacity: 1;
   transition: opacity 100ms ease-out;
 }
@@ -81,8 +89,8 @@ body.modal-open {
   background-color: #ff6b08;
 }
 .modal-close-button-svg {
-  /* width: 100%;
-  height: 100%; */
+  width: 100%;
+  height: 100%;
   fill: black;
 }
 .current__content {
