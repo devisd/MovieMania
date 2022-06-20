@@ -91,25 +91,25 @@ function openModal({
   return `
 		<div class="backdrop " data-modal>
 		<div class="modal">
-	
+
 			<button class="modal-close-button" data-modal-close>
 				<img
 					class="modal-close-button-svg"
 					src="${svg}"
 					alt=""
 				/>
-	
+
 			</button>
-	
+
 			<div class="modal__box">
 				<div class="current__content">
 					<img class="current_image" src="https://image.tmdb.org/t/p/w500${poster_path}" alt="#" />
 				</div>
-	
-	
+
+
 				<div class="modal-rigth-side">
 					<h3 class="modal-movie-name">${title}</h3>
-	
+
 					<div class="modal-ul-wrapper">
 						<ul class="modal-ul modal-ul-sec gray">
 							<li>Vote / Votes</li>
@@ -127,7 +127,7 @@ function openModal({
 							<li>${genres.map((res) => res.name)}</li>
 						</ul>
 					</div>
-	
+
 					<h4 class="modal-about">ABOUT</h4>
 					<p class="modal-text">${overview}
 					</p>
@@ -172,7 +172,7 @@ function closeModal() {
   function toggleModal() {
     document.body.classList.remove("modal-open");
 		backdrop.classList.add("is-hidden");
-		document.body.style.overflowY = ""; 
+		document.body.style.overflowY = "";
 
 		backdrop.remove()
 	}
