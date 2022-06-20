@@ -38,7 +38,7 @@ li {
 
 .header {
   padding: 40px 70px 97px 70px;
-  background-image: url(../images/header/header-bg.png);
+  background-image: url(../images/header/header-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -46,7 +46,7 @@ li {
 
 .lib {
   padding: 40px 70px 81px 70px;
-  background-image: url(../images/header/header-bg-lib.png);
+  background-image: url(../images/header/header-bg-lib.jpg);
 }
 
 /* .header__container {
