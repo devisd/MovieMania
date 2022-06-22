@@ -1,1 +1,0 @@
-{"mappings":"AAAkBA,SAASC,cAAc,qBAC/BC,UAAUC,IAAI","sources":["src/js/small-modal.js"],"sourcesContent":["const modalLink = document.querySelector('.open-small-modal')\nmodalLink.classList.add('black')\n"],"names":["document","querySelector","classList","add"],"version":3,"file":"index.ced4507a.js.map"}
