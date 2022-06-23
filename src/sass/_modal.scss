@@ -13,20 +13,6 @@ html {
     padding-inline-start: 0px;
 }
 
-/* вынести в основной файл */
-body.modal-open {
-    /* overflow: hidden; */
-    /* overflow-y:hidden; */
-    /* opacity: 0; */
-    /* background-color: #ff6b01;
-  pointer-events: none;
-  visibility: hidden; */
-}
-
-body {
-    /* padding-right: 55px; */
-}
-
 .backdrop {
     position: fixed;
     top: 0;
