@@ -1,14 +1,14 @@
-import API from "./API-word";
-import { genres } from "./genres-list.json";
-import svg from"../images/svg/close-modal.svg"
+import API from './API-word';
+import { genres } from './genres-list.json';
+import svg from '../images/svg/close-modal.svg';
 
-const searchFormEl = document.querySelector("form");
-const galleryDivEl = document.querySelector(".movies");
-const modalPage = document.querySelector("[data-modal]");
-const modalEl = document.querySelector("body");
+const searchFormEl = document.querySelector('form');
+const galleryDivEl = document.querySelector('.movies');
+const modalPage = document.querySelector('[data-modal]');
+const modalEl = document.querySelector('body');
 const getApiServise = new API();
 
-searchFormEl.addEventListener("submit", onInput);
+searchFormEl.addEventListener('submit', onInput);
 
 function onInput(e) {
   e.preventDefault();
@@ -22,7 +22,7 @@ function movieSearch(searchQuery) {
   getApiServise.query = searchQuery;
   return getApiServise
     .onFetch()
-    .then((data) => {
+    .then(data => {
       return data.results;
     })
     .then(createMarkapCard)
@@ -31,7 +31,7 @@ function movieSearch(searchQuery) {
 
 function createMarkapCard(results) {
   return results
-    .map((res) => {
+    .map(res => {
       return `
         <li class="movie__card modal-activation" name="li" id="${res.id}">
             <div data-modal-open data-modal>
@@ -45,30 +45,30 @@ function createMarkapCard(results) {
         </li>
         `;
     })
-    .join("");
+    .join('');
 }
 
 function renderMarkap(cards) {
-  galleryDivEl.innerHTML = "";
-  galleryDivEl.insertAdjacentHTML("afterbegin", cards);
+  galleryDivEl.innerHTML = '';
+  galleryDivEl.insertAdjacentHTML('afterbegin', cards);
 
-  const card = document.querySelector(".movies");
-  card.addEventListener("click", onCardClick);
+  const card = document.querySelector('.movies');
+  card.addEventListener('click', onCardClick);
 }
 
 function onCardClick(e) {
-  if (e.target.nodeName !== "IMG") {
+  if (e.target.nodeName !== 'IMG') {
     return;
   }
 
   const idMovie = e.target.id;
   console.log(idMovie);
   getApiServise.movieId = idMovie;
-  console.log("idMovie", idMovie);
+  console.log('idMovie', idMovie);
   // modalPage.classList.toggle("is-hidden")
   getApiServise
     .onIdFetch()
-    .then((res) => {
+    .then(res => {
       // console.log(res)
       return res;
     })
@@ -124,7 +124,7 @@ function openModal({
 							</li>
 							<li>${popularity}</li>
 							<li>${original_title}</li>
-							<li>${genres.map((res) => res.name)}</li>
+							<li>${genres.map(res => res.name)}</li>
 						</ul>
 					</div>
 
@@ -152,36 +152,28 @@ function openModal({
 }
 
 // console.log(openModal)
-const forPadding = document.querySelector('.container')
-const forPaddingHeader = document.querySelector('header')
+const forPadding = document.querySelector('.container');
+const forPaddingHeader = document.querySelector('header');
 function renderModal(obj) {
   // console.log(obj)
   // modalEl.innerHTML = `${obj}`
-	document.body.style.overflowY = "hidden"
+  document.body.style.overflowY = 'hidden';
 
-	modalEl.insertAdjacentHTML("beforeend", obj);
-
-
+  modalEl.insertAdjacentHTML('beforeend', obj);
 }
 
 function closeModal() {
-  const buttonClose = document.querySelector("[data-modal-close]");
-  const backdrop = document.querySelector("[data-modal]");
-	buttonClose.addEventListener("click", toggleModal);
+  const buttonClose = document.querySelector('[data-modal-close]');
+  const backdrop = document.querySelector('[data-modal]');
+  buttonClose.addEventListener('click', toggleModal);
 
   function toggleModal() {
-    document.body.classList.remove("modal-open");
-		backdrop.classList.add("is-hidden");
-		document.body.style.overflowY = "";
+    document.body.classList.remove('modal-open');
+    backdrop.classList.add('is-hidden');
+    document.body.style.overflowY = '';
 
-		backdrop.remove()
-	}
-
+    backdrop.remove();
+  }
 }
 
-
-
-
-
 export { movieSearch, onCardClick, openModal, renderModal };
-

@@ -2,6 +2,7 @@ const modalLink = document.querySelector('.open-small-modal');
 const containerSmall = document.querySelector('.container-small-modal');
 const closeBtn = document.querySelector('.close-small-modal-btn');
 const why = document.querySelector('.why');
+
 modalLink.after(containerSmall);
 modalLink.addEventListener('click', toggleSmallModal);
 function toggleSmallModal() {
@@ -26,13 +27,11 @@ function onCloseBtn() {
 }
 
 const uppBtn = document.querySelector('.up-button');
-
 const downBtn = document.querySelector('.down-button');
 const sidebar = document.querySelector('.sidebar');
 const mainSlide = document.querySelector('.main-slide');
 
 const slidesCount = mainSlide.querySelectorAll('.small-div').length;
-console.log(slidesCount);
 let activeSlideIndex = 0;
 
 sidebar.style.top = `-${(slidesCount - 1) * 400}px`;
