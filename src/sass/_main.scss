@@ -43,13 +43,16 @@
 .movies {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
+  margin-right: calc(-1 * 30px);
+  margin-bottom: calc(-1 * 30px);
 }
 
-.movie__cart {
+.movie__card {
   width: 274px;
   height: 440px;
   margin-bottom: 30px;
+  margin-right: 30px;
 }
 
 .movie__poster {
